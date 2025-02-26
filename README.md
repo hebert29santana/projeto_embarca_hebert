@@ -9,7 +9,7 @@ Este projeto consiste em um sistema embarcado para monitoramento de temperatura,
 ---
 
 ## Link para vídeo demontrativo
-Link: 
+Link: https://drive.google.com/file/d/11-o1yJyh-BIDbyVj--Uw2ctQGhRHkrQu/view?usp=sharing
 
 ---
 
