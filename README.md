@@ -63,67 +63,9 @@ Link:
 ---
 
 ## Fluxograma
-+-------------------+
-|      Início       |
-+-------------------+
-         |
-         v
-+-------------------+
-| Inicializar       |
-| hardware          |
-+-------------------+
-         |
-         v
-+-------------------+
-| Ler temperatura   |
-| simulada          |
-+-------------------+
-         |
-         v
-+-------------------+
-| Atualizar estado  |
-| da placa          |
-+-------------------+
-         |
-         v
-+-------------------+
-| Exibir temperatura|
-| e estado no       |
-| display           |
-+-------------------+
-         |
-         v
-+-------------------+
-| Estado crítico?   |
-+-------------------+
-         |
-         v
-+-------------------+       +-------------------+
-| Sim: Ativar matriz|       | Não: Verificar    |
-| de LEDs e buzzer  |       | botão A           |
-+-------------------+       +-------------------+
-         |                           |
-         v                           v
-+-------------------+       +-------------------+
-| Verificar botão A |       | Repetir ciclo     |
-+-------------------+       +-------------------+
-         |                           |
-         v                           |
-+-------------------+                |
-| Alternar tela no  |                |
-| display           |                |
-+-------------------+                |
-         |                           |
-         v                           |
-+-------------------+<---------------+
-| Repetir ciclo     |
-+-------------------+
-         |
-         v
-+-------------------+
-|       Fim         |
-+-------------------+
 
+![Diagrama sem nome drawio](https://github.com/user-attachments/assets/930c83ff-829d-4298-b3b2-fb87eafb9b4c)
+          
 ---
 
 ## Estrutura do Código
