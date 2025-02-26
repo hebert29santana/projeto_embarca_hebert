@@ -87,7 +87,7 @@ void displayNumber(int number)
 }
 
 // Função para piscar a matriz de LEDs em vermelho (não bloqueante)
-void blinkMatrixRedNonBlocking(uint8_t intensity) {
+void blinkMatrixRed(uint8_t intensity) {
     uint64_t current_time = time_us_64() / 1000;  // Tempo atual em milissegundos
 
     // Verifica se é hora de alternar o estado dos LEDs

@@ -159,7 +159,7 @@ int main() {
             }
 
             // Pisca a matriz de LEDs (não bloqueante)
-            blinkMatrixRedNonBlocking(255);
+            blinkMatrixRed(255);
         } else {
             critical_state_active = false;  // Sai do estado crítico
             npClear();  // Garante que a matriz de LEDs esteja apagada
